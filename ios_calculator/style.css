@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    padding: 60px;
+    font-family: 'Helvetica Neue', sans-serif;;
+}
+.container {
+    height: 840px;
+    width: 500px;
+    margin: auto;
+    background-color: black;
+    display: grid;
+    border-radius: 50px;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 45px;
+    gap: 10px;
+    font-weight: 400;
+  }
+  .function1{
+    background-color: #a5a5a5;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+  }
+  .function1:hover{
+    opacity: 0.5;
+  }
+  .function2{
+    background-color: #f1a33c;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.1s;
+
+  }
+  .function2:hover{
+    opacity: 0.5;
+  }
+  .number{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #333;
+    display: flex;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+  }
+  .number:hover{
+    opacity: 0.5;
+  }
+  .container span{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+.button1{
+    grid-column: 1;
+    grid-row: 3;
+}
+.button2{
+    grid-column: 2;
+    grid-row: 3;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.button3{
+    grid-column: 3;
+    grid-row: 3;
+}
+.button4{
+    grid-column: 4;
+    grid-row: 3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.button5{
+    grid-column: 1;
+    grid-row: 4;
+}
+.button6{
+    grid-column: 2;
+    grid-row: 4;
+}
+.button7{
+    grid-column: 3;
+    grid-row: 4;
+}
+.button8{
+    grid-column: 4;
+    grid-row: 4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-weight: bolder; */
+}
+.button9{
+    grid-column: 1;
+    grid-row: 5;
+}
+.button10{
+    grid-column: 2;
+    grid-row: 5;
+}
+.button11{
+    grid-column: 3;
+    grid-row: 5;
+}
+.button12{
+    grid-column: 4;
+    grid-row: 5;
+}
+.button13{
+    grid-column: 1;
+    grid-row: 6;
+}
+.button14{
+    grid-column: 2;
+    grid-row: 6;
+}
+.button15{
+    grid-column: 3;
+    grid-row: 6;
+}
+.button16{
+    grid-column: 4;
+    grid-row: 6;
+}
+.button17{
+    grid-column: 1/3;
+    grid-row: 7;
+    background-color: #333;
+    display: flex;
+    font-size: 50px;
+    color: white;
+    border-radius: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.button17:hover{
+    opacity: 0.5;
+}
+.button17 span{
+    margin-left: 43px;
+}
+.button18{
+    grid-column: 3;
+    grid-row: 7;
+}
+.button19{
+    grid-column: 4;
+    grid-row: 7;
+}
+
+  
+  
