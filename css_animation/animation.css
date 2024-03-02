@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+.circle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: auto 0 auto 0;
+
+}
+.small{
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.175, 0.32, 0.885, 1.275);
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.first{
+    animation-name: animation1;
+    margin: auto 100px auto auto;
+}
+.second{
+    margin: auto auto auto 100px;
+    animation-name: animation2;
+}
+
+
+
+@keyframes animation1 {
+        0% {
+            left: 0px;
+        }
+        50% {
+            left: 250px;
+            width: 110px;
+            height: 110px;
+        }
+        100% {
+            left: 0px;
+        }
+}
+@keyframes animation2 {
+        0% {
+            right: 0px;
+        }
+        50% {
+            right: 250px;
+            width: 110px;
+            height: 110px;
+        }
+        100% {
+            right: 0px;
+        }
+}
