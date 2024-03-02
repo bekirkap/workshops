@@ -9,14 +9,14 @@
     height: 100vh;
     width: 100vw;
     position: absolute;
+    align-items: center;
+    justify-content: center;
 }
 .circle{
     border-radius: 50%;
     width: 200px;
     height: 200px;
     background-color: white;
-    margin: auto 0 auto 0;
-
 }
 .small{
     animation-iteration-count: infinite;
