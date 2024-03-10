@@ -15,6 +15,52 @@
     color: purple;
 }
 .circle{
+    display: flex;
+    border-radius: 50%;
     width: 150px;
+    margin: auto;
     height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+    align-items: center;
+    justify-content: center;
 }
+.portfolio{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.myimg{
+    background-image: url(./img/aboutus.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.myimg2{
+    background-image: url(./img/map.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+
+}
+.labels{
+    height: 200px;
+    width: 300px;
+}
+.client img {
+    height: auto;
+    max-height: 50px;
+  }
